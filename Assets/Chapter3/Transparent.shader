@@ -15,7 +15,8 @@
         LOD 200
 
 		// 뒤쪽을 표시하지 않는다
-		Cull Back
+		//Cull Back
+		Cull Off
 
         CGPROGRAM
 		

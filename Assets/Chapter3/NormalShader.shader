@@ -36,7 +36,7 @@
             // put more per-instance properties here
         UNITY_INSTANCING_BUFFER_END(Props)
 
-        void surf (Input IN, inout SurfaceO utputStandard o)
+        void surf (Input IN, inout SurfaceOutputStandard o)
         {
 			// 머티리얼의 기본 색상으로 제공되는 색조 사용
 			o.Albedo = _MainTint;
